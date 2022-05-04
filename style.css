@@ -1,0 +1,85 @@
+CSS HEX
+html {
+/*--bronze*/
+--highlight1: #D58B3Bff;
+/*--moss-green*/
+--highlight2: #8F9D51ff;
+/* --indigo-dye */
+--dark1: #29496Eff;
+/* --olive-drab-7 */
+--dark2: #433726ff;
+/* --beau-blue */
+--light: #BBD6EDff;
+}
+
+body {
+  background-color: #F7F9FC;
+  line-height: 20px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h1{
+color: #29496Eff;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-style: bold;
+font-size: 30px;
+line-height: 5px;
+}
+
+h2{
+  color: #29496Eff;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25px;
+  }
+
+h3{
+  color: #433726ff;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 7px;
+  }
+
+h5{
+  color: #433726ff;
+  line-height: 30px;
+  font-weight: 200;
+  font-style: regular;
+  font-size: 20px;
+  }
+
+a{
+  color: #D58B3Bff;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #8F9D51ff;
+  text-decoration: underline;
+}
+
+.container {
+  width: 80vw;        /* Set the width - vw = view width il s agit d un pourcentage de l ecran*/
+  margin: 0 auto;
+}
+
+.card{
+  margin: 30px auto;
+  padding: 0px;
+  background: white;                         /* White background */
+  padding: 50px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
